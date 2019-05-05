@@ -1,0 +1,49 @@
+h1{
+  color: white;
+  background-color:#a366ff;
+}
+#pic{
+  color:black;
+  background-color:   #F5FFFA;
+  font-size: 18px;
+  font-family: Arial;
+}
+#pic img{
+  align-content: center;
+  width="150" height="150" hspace="300" align="right"
+
+}
+#pic p{
+  font-size: 20px;
+  font-family: Arial, serif;
+  font-style: oblique;
+
+}
+.objective{
+  font-family: "Arial", serif;
+  font-size:20px; 
+}
+#headings{
+  background-color:  #f8ecf2
+  font-family:"Arial", serif;
+  font-style: oblique;
+  font-size:18px; 
+}
+#headings th{
+  background-color:#a366ff;
+  font-family: "Georgia", Serif;
+  font-style: Normal;
+  color:white;  
+}
+#headings tr td ul li{
+  color: #cc0000;
+  font-size: 15px;
+  font-weight: bold;  
+}
+h3{
+  font-size:20px;
+  color:violet;
+  text-shadow: 2px 2px black;
+  background-color: #00e6e6;
+  padding:05px;
+}
