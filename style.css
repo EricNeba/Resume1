@@ -7,21 +7,55 @@ h1{
   background-color:   #F5FFFA;
   font-size: 18px;
   font-family: Arial;
+  border-style: solid;
+  border-width: 1px;
+  border-color: red;
+  border-radius: 8px;
+  padding: 10px;
 }
 #pic img{
-  align-content: center;
-  width="150" height="150" hspace="300" align="right"
-
+  width:200px;
+  height:200px;
+  border-radius: 100px;
+}
+#pic h2{
+  font-size: 30px;
+  font-family: Verdana, serif;
+  font-style: oblique;
+}
+#pic h2 span{
+  color: blue;
+  font-family: Georgia;
 }
 #pic p{
-  font-size: 20px;
-  font-family: Arial, serif;
-  font-style: oblique;
-
+  line-height: 2.0;
 }
 .objective{
   font-family: "Arial", serif;
   font-size:20px; 
+}
+.experience p{
+  font-family: "Times New Roman", Times, serif;
+  font-style: oblique;
+  font-size: 20px;
+  font-weight: bold;
+  color: #862d59
+;
+}
+.volunteer p{
+ font-family: "Times New Roman", Times, serif;
+  font-style: oblique;
+  font-size: 20px;
+  font-weight: bold;
+  color: #862d59; 
+}
+.experience ul li{
+  text-align: justify;
+  line-height: 1.8;
+}
+.volunteer ul li {
+ text-align: justify;
+ line-height: 1.8; 
 }
 #headings{
   background-color:  #f8ecf2
@@ -41,9 +75,10 @@ h1{
   font-weight: bold;  
 }
 h3{
-  font-size:20px;
+  font-size:25px;
   color:violet;
   text-shadow: 2px 2px black;
-  background-color: #00e6e6;
   padding:05px;
+  box-shadow: inset 10px 10px 5px #888888, inset 10px -10px 5px #888888;
+  border-radius: 8px;
 }
