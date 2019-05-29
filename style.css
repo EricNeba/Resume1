@@ -1,3 +1,9 @@
+body {
+  background-image: url("IMG_3231.jpg");
+  background-size: cover;
+  font-size: 1.4em;
+}
+
 h1{
   color: white;
   background-color:#a366ff;
@@ -12,11 +18,14 @@ h1{
   border-color: red;
   border-radius: 8px;
   padding: 10px;
+  background:-webkit-radial-gradient(top left,green,yellow,blue);
 }
 #pic img{
   width:200px;
   height:200px;
   border-radius: 100px;
+  filter: hue-rotate(60deg);
+  
 }
 #pic h2{
   font-size: 30px;
@@ -39,15 +48,14 @@ h1{
   font-style: oblique;
   font-size: 20px;
   font-weight: bold;
-  color: #862d59
-;
+  color: #eadf0b;
 }
 .volunteer p{
  font-family: "Times New Roman", Times, serif;
   font-style: oblique;
   font-size: 20px;
   font-weight: bold;
-  color: #862d59; 
+  color: #eadf0b; 
 }
 .experience ul li{
   text-align: justify;
@@ -75,10 +83,11 @@ h1{
   font-weight: bold;  
 }
 h3{
+  height: 40px;
   font-size:25px;
-  color:violet;
-  text-shadow: 2px 2px black;
+  color:#d81128;
+  text-shadow: 3px 3px black;
   padding:05px;
-  box-shadow: inset 10px 10px 5px #888888, inset 10px -10px 5px #888888;
+  box-shadow: inset 10px 10px 5px #686747, inset 10px -10px 5px #f2efc1;
   border-radius: 8px;
 }
